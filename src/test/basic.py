@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+### tube
+tu = (1, 2, 3, 4, 1)
+#print tu.index(5)
+print tu.count(1)
+print tu == 1
+print tu + tu
