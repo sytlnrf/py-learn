@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import division
 ### tube
 tu = (1, 2, 3, 4, 1)
 #print tu.index(5)
@@ -22,4 +23,21 @@ print tu1[2]
 tu = (1, [2, 3, 4], 5)
 tu[1][0] = 6
 print tu
+
+### number format
+import math
+nua = 3
+nub = 4
+nuc = -4
+print nua / nub
+print nua // nub
+print nua / nuc
+print nua // nuc
+print math.floor(2.5)
+print math.floor(-2.5)
+print math.trunc(2.5)
+print math.trunc(-2.5)
+
+
+
 
