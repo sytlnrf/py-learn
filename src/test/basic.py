@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from __future__ import division
+# from __future__ import division
+import math
 ### tube
 tu = (1, 2, 3, 4, 1)
 #print tu.index(5)
@@ -37,7 +38,19 @@ print math.floor(2.5)
 print math.floor(-2.5)
 print math.trunc(2.5)
 print math.trunc(-2.5)
+j = 4
+print j
+print 2+3j*j
 
+print oct(64), hex(64), bin(64)
+print int('64'), int('100', 8), int('40', 16), int('01000000',2)
+x = 3
+print bin(x)
+print x | 2
+print x & 1
+print x ^ 1
+print x << 1
+print x >> 1
 
 
 
